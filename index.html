@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Interactive...</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+<section id="main-container" >
+    <div class="container-contents">
+        <div class="star-img">
+            <img src="./images/icon-star.svg" alt="star-icon">
+        </div>
+       <h2>How did we do ?</h2>
+       <p> Pls let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+       <form>
+        <ul class="rating-numbers">
+            <li class="rating-number">
+                <button id="1-rating" class="btn" type="button"> 1 </button>
+            </li>
+            <li class="rating-number m-left">
+                <button id="2-rating" class="btn" type="button"> 2 </button>
+            </li>
+            <li class="rating-number m-left">
+                <button id="3-rating" class="btn" type="button"> 3 </button>
+            </li>
+            <li class="rating-number m-left">
+                <button id="4-rating" class="btn" type="button"> 4 </button>
+            </li>
+            <li class="rating-number m-left">
+                <button id="5-rating" class="btn" type="button"> 5 </button>
+            </li>
+        </ul>
+        <div class="submit-cont">
+            <input id="sbmt-btn" value="SUBMIT" type="submit" >
+        </div>
+       </form>
+    </div>
+   
+</section>
+<section id="thankyou-component">
+    <div class="thankyou-img">
+        <img src="./images/illustration-thank-you.svg" alt="Thankyou-icon">
+    </div>
+    <p id="dynamic-text">You selected <span class="dynamic-number"></span> out of 5 </p>
+<h2  class="thankyou-heading">
+    Thank you!
+</h2>
+<p class="thankyou-text">We appreciate you taking a time to give a rating. If you ever need more support, don't hesitate to get in touch! </p>
+
+</section>
+
+
+
+
+<script src="muhd.js" ></script>
+    </body>
+</html>
