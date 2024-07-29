@@ -5,137 +5,18 @@
     font-family: "overpass",sans-serif;
 }
 body{
-    background-color:#121417
-    ;
+    background-color: #252d37;
 }
-li{
-    list-style-type: none;
-}
-.m-left{
-    margin-left: 1.3rem;
-}
-
-#main-container{
-    background: #1d2530;
-    width: 412px;
-    height: 416px;
-    border-radius: 30px;
-    margin: 5rem auto;
-}
-.container-contents{
-    padding-top: 2rem;
-    padding-left: 2rem;
-    padding-right: 1rem;
-}
-.star-img{
-    background-color: #232d39;
-    width: 48px;
-    height: 48px;
-    border-radius: 50%;
+#Reg-form{
     display: flex;
     align-items: center;
     justify-content: center;
-}
-.container-contents h2{
-    color: white;
-    font-size: 20px;
-    padding-top: 2rem;
-    font-weight: 700;
-}
-.container-contents p{
-    color: #949fae;
-    font-size: 15px;
-    padding-top: 1rem;
-    line-height: 24px;
-    font-weight: 400;
-}
-.rating-numbers{
-    display: flex;
-    align-items: center;
-    padding-top: 2.3rem;
-}
-.rating-number button{
-    color: #949fae;
-    background: #232d39;
-    width: 51px;
-    height: 51px;
-    border: none;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 16px;
-    font-weight: 700;
-    transition: all .2s ease-in;
-    cursor: pointer;
-}
-.rating-number button:hover{
-    background: #979797;
-    color:#fff;
-}
-.rating-number button.active{
-    color: #fff;
-    background: #fb7413;
-}
-#sbmt-btn{
-    background: #fb7413;
-    font-size: 15px;
-    font-weight: 700;
-    color: white;
-    border: none;
-    border-radius: 22px;
-    width: 341px;
-    height: 45px;
-    margin-top: 1.5rem;
-    cursor: pointer;
-    letter-spacing: 2px;
-    transition: all .2s ease-in;
-}
-#sbmt-btn:hover{
-background: white;
-color: #fb7413;
-}
+    flex-direction: column;
+    margin-top: 100px;
 
-
-
-
-#thankyou-component{
-    background: #1d2530;
-    width: 412px;
-    height: 416px;
-    border-radius: 30px;
-    margin: 5rem auto;
-    text-align: center;
-    display: none;
 }
-.thankyou-img{
-    padding-top: 2.5rem;
-}
-#dynamic-text{
-    background:#232d39;
-    color: #fb7413;
-    border-radius: 30px;
-    width: 168px;
-    height: 32px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 1.5rem auto;
-}
-
-.dynamic-number{
-    padding: 0 3px;
-}
-
-.thankyou-heading{
-    color: white;
-    font-size: 28px;
-    padding-bottom: .7rem;
-}
-.thankyou-text{
-    font-size: 15px;
-    font-weight: 400;
-    color: #949fae;
-    padding: 0rem 2.5rem;
-    line-height: 22px;
+#f-c{
+line-height: 20px;
+border-radius: 10px;
+color: black;
 }
